@@ -7,6 +7,7 @@ public enum OrderStatus {
     DELIVERED("Pedido entregado"),
     CANCELLED("Pedido cancelado");
 
+    //djd
     private final String message;
 
     OrderStatus(String message) {
@@ -17,3 +18,4 @@ public enum OrderStatus {
         return message;
     }
 }
+
